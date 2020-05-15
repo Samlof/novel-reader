@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/novel-reader/static/css/main.5f361e03.chunk.css",
+    "main.js": "/novel-reader/static/js/main.5ccfe6d2.chunk.js",
+    "main.js.map": "/novel-reader/static/js/main.5ccfe6d2.chunk.js.map",
+    "runtime-main.js": "/novel-reader/static/js/runtime-main.1ee4e9b9.js",
+    "runtime-main.js.map": "/novel-reader/static/js/runtime-main.1ee4e9b9.js.map",
+    "static/js/2.99882819.chunk.js": "/novel-reader/static/js/2.99882819.chunk.js",
+    "static/js/2.99882819.chunk.js.map": "/novel-reader/static/js/2.99882819.chunk.js.map",
+    "index.html": "/novel-reader/index.html",
+    "precache-manifest.e7cfab979b8591e81b0d73b141a34fa3.js": "/novel-reader/precache-manifest.e7cfab979b8591e81b0d73b141a34fa3.js",
+    "service-worker.js": "/novel-reader/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/novel-reader/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.99882819.chunk.js.LICENSE.txt": "/novel-reader/static/js/2.99882819.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/novel-reader/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ee4e9b9.js",
+    "static/js/2.99882819.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.5ccfe6d2.chunk.js"
+  ]
+}
