@@ -13,7 +13,7 @@ import db from "./firebase";
 export function getNovels() {
   return db
     .orderBy("name")
-    .limit(10)
+    .limitToLast(10)
     .get()
     .then((novels) => {
       return novels.docs
