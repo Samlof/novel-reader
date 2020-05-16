@@ -39,10 +39,7 @@ function Novels() {
 
   return (
     <div className="container">
-      <div
-        className="jumbotron"
-        style={{ margin: "auto", textAlign: "center" }}
-      >
+      <div style={{ marginTop: "50px", textAlign: "center" }}>
         <p>
           <button
             type="button"
