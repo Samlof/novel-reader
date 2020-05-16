@@ -12,15 +12,14 @@ import db from "./firebase";
  */
 export function getNovels() {
   return db
-    .orderBy("name")
-    .limitToLast(10)
+    .orderBy("name", "desc")
+    .limit(10)
     .get()
     .then((novels) => {
       return novels.docs
         .map((x) => x.data())
         .map(
           (x) => /** @type {Novel}*/ ({ ...x, date: new Date(x.dateNumber) })
-        )
-        .reverse();
+        );
     });
 }
