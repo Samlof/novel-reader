@@ -37,10 +37,11 @@ function Novels() {
     return () => window.removeEventListener("focus", eventAction);
   }, [serverRequest]);
 
+  const firstNovel = novels[0];
   return (
     <div className="container">
       <div style={{ marginTop: "50px", textAlign: "center" }}>
-        <p>
+        <p style={{ marginBottom: 0 }}>
           <button
             type="button"
             onClick={isLoading ? null : serverRequest}
@@ -50,6 +51,11 @@ function Novels() {
             {isLoading ? "Updating.." : "Update"}
           </button>
         </p>
+        {firstNovel && (
+          <p style={{ marginBottom: 10 }}>
+            {firstNovel.date.toLocaleDateString()}
+          </p>
+        )}
         <div className="novels">
           {novels.map(function (novel, i) {
             return (
